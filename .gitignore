@@ -1,0 +1,60 @@
+# =========================
+# OS
+# =========================
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+Desktop.ini
+
+# =========================
+# IDE / Editors
+# =========================
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.swp
+*.swo
+*~
+
+# =========================
+# Secrets
+# =========================
+.env
+.env.*
+*.pem
+*.p12
+*.jks
+secrets/
+credentials/
+
+# =========================
+# Not published to this public docs snapshot
+# =========================
+backend/
+docker/
+ios/
+scripts/
+docs/API.md
+docs/Algorithm.md
+docs/Architecture.md
+docs/DevelopmentPlan.md
+docs/ERD.md
+docs/README.md
+.env.example
+
+# Keep only compressed README shots; ignore full-res captures in docs/screenshots root
+docs/screenshots/*.png
+
+# =========================
+# Misc
+# =========================
+*.tmp
+*.bak
+*.orig
+coverage/
+*.lcov
+node_modules/
+*.log
