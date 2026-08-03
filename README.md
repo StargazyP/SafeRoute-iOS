@@ -29,12 +29,12 @@
   <img src="docs/screenshots/readme/01-home-w480.png" alt="Home — earthquake summary and scenarios" width="280" />
 </p>
 
-### 지도 — 진앙 · 대피소 · 위치 위험
+### 지도 — 대피소 · 경로 안내
 
-진앙 마커와 범례, 현재 위치 위험 배지(Medium 등)를 지도 위에 표시합니다.
+대피소 핀과 경로 단계 마커, 선택된 대피소까지의 안내 카드를 지도에 표시합니다.
 
 <p align="center">
-  <img src="docs/screenshots/readme/02-map-w480.png" alt="Map — epicenter and location risk" width="280" />
+  <img src="docs/screenshots/readme/02-map-w480.png" alt="Map — shelter pin and route guidance" width="280" />
 </p>
 
 ### 위험도 — 점수 · 판별 기준
@@ -55,10 +55,18 @@
 
 ### 경로 — 대피 여행 기록
 
-완료된 대피 기록과 공유 화면입니다. (기록이 없으면 대피소 탭으로 유도)
+완료된 대피 기록(출발·도착·거리)과 **이동 경로 보기**로 이어집니다.
 
 <p align="center">
   <img src="docs/screenshots/readme/05-route-w480.png" alt="Route history" width="280" />
+</p>
+
+### 경로 상세 — 대피소까지 이동 경로
+
+기록에서 연 상세 화면입니다. 출발지→대피소 **경로 라인**과 거리·시각을 확인합니다.
+
+<p align="center">
+  <img src="docs/screenshots/readme/05-route-path-w480.png" alt="Shelter travel path on map" width="280" />
 </p>
 
 ### 오프라인 — 캐시 모드
@@ -76,10 +84,10 @@
 | 탭 | 역할 |
 |----|------|
 | **홈** | 지진 속보 요약, 지역 지진 드롭다운, 역사 시나리오, 오프라인 준비 |
-| **지도** | 진앙·대피소 핀, 경로, 위치 위험 |
+| **지도** | 대피소 핀 · 경로 단계 · 대피 안내 |
 | **위험도** | 점수·등급, 판별 기준, 행동 수칙 |
 | **대피소** | 거리별 목록·검색·대피 시작 |
-| **경로** | 대피 여행 기록·공유 |
+| **경로** | 대피 여행 기록 · 이동 경로(맵) · 공유 |
 
 ---
 
